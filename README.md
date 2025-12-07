@@ -40,59 +40,6 @@ Combined Components:
 4. **Open your browser:**
    Navigate to `http://localhost:5173` (or the port shown in the terminal)
 
-## 🚀 Usage Guide
-
-### Development
-
-- **Run development server:**
-  ```bash
-  npm run dev
-  ```
-  This starts the Vite dev server with hot module replacement (HMR).
-
-- **Build for production:**
-  ```bash
-  npm run build
-  ```
-  Creates an optimized production build in the `dist` folder.
-
-- **Preview production build:**
-  ```bash
-  npm run preview
-  ```
-  Previews the production build locally.
-
-- **Run linter:**
-  ```bash
-  npm run lint
-  ```
-  Checks code for linting errors.
-
-### Project Structure
-
-```
-my-bio-app/
-├── public/              # Static assets
-├── src/
-│   ├── assets/         # Images and other assets
-│   ├── components/     # React components
-│   │   ├── About.jsx   # About Me section
-│   │   ├── Car.jsx     # Car component
-│   │   ├── Experience.jsx  # Professional profile
-│   │   ├── Footer.jsx  # Footer component
-│   │   ├── FormContainer.jsx  # Login & Sign Up forms
-│   │   ├── Header.jsx  # Header with profile picture
-│   │   ├── Interests.jsx  # Interests section
-│   │   ├── Projects.jsx   # Featured projects
-│   │   └── Skills.jsx     # Skills showcase
-│   ├── App.jsx         # Main app component
-│   ├── main.jsx        # Entry point
-│   ├── theme.js        # Material-UI theme configuration
-│   ├── index.css       # Global styles and CSS variables
-│   └── Picture.jpg     # Profile picture
-├── package.json        # Dependencies and scripts
-└── README.md          # This file
-```
 
  Key Features
 
