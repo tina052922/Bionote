@@ -1,42 +1,23 @@
-# Bionote - Personal Portfolio Website
+Bionote - Personal Portfolio Website
 
 A modern, responsive personal portfolio website built with React and Material-UI, featuring a professional bio, skills showcase, projects, and interactive forms. This project combines multiple components including authentication forms, a car component, header, footer, and a comprehensive bionote section.
 
-## 🌟 Features
+ Features
 
 This portfolio website integrates several components and challenges:
 
-### Combined Components:
-- **Sign Up Form** - User registration form with email and password fields
-- **Login Form** - User authentication form with username and password
-- **Car Component** - Interactive component demonstrating React component structure
-- **Header** - Professional header section with profile picture, name, title, and social links
-- **Footer** - Contact section with copyright information
-- **Bionote** - Comprehensive biography section including:
+Combined Components:
+- Sign Up Form - User registration form with email and password fields
+- Login Form - User authentication form with username and password
+- Car Component - Interactive component demonstrating React component structure
+-*Header - Professional header section with profile picture, name, title, and social links
+- Footer - Contact section with copyright information
+- Bionote - Comprehensive biography section including:
   - About Me section with detailed professional background
   - Skills showcase (Frontend, Backend, Tools & Others)
   - Professional Profile (Experience and Education)
   - Interests section
   - Featured Projects with technology stacks
-
-## 🎨 Design
-
-The website uses a consistent **dark blue color palette**:
-
-- **Navy**: `#01143D` - Primary text and headings
-- **Cyan**: `#43B3EF` - Accents and secondary elements
-- **Background**: `#E8ECEF` - Main page background
-- **Card**: `#FFFFFF` - Card backgrounds
-- **Text Dark**: `#1E2A39` - Body text
-- **Text Muted**: `#A9AEB4` - Secondary text
-
-## 🛠️ Technology Stack
-
-- **React 19** - UI library
-- **Vite** - Build tool and dev server
-- **Material-UI (MUI)** - Component library
-- **Emotion** - CSS-in-JS styling
-- **JavaScript (ES6+)** - Programming language
 
 ## 📦 Installation
 
@@ -113,54 +94,7 @@ my-bio-app/
 └── README.md          # This file
 ```
 
-## 📋 Component Guide
-
-### 1. Header Component
-- Displays profile picture (Picture.jpg)
-- Shows full name: "Christina Joan M. Gelbolingo"
-- Displays professional title
-- Includes social media buttons (GitHub, LinkedIn, Email)
-- Features gradient background with navy blue palette
-
-### 2. About Me Section
-- Professional biography
-- Centered, wide layout for optimal readability
-- Clean white card design with subtle shadows
-
-### 3. Skills Section
-- Three categories: Frontend, Backend, Tools & Others
-- Technology chips for each skill
-- Responsive grid layout
-- Hover effects on cards
-
-### 4. Professional Profile
-- **Experience Card**: Work history and achievements
-- **Education Card**: Academic background
-- Timeline-style layout with colored borders
-
-### 5. Interests Section
-- Four interest cards in a grid
-- Dark blue gradient backgrounds
-- Hover animations
-
-### 6. Featured Projects
-- Project cards with descriptions
-- Technology stack tags
-- Project type badges
-- Responsive layout
-
-### 7. Forms (Login & Sign Up)
-- Side-by-side card layout
-- Material-UI form components
-- Full-width inputs
-- Navy blue primary buttons
-
-### 8. Footer
-- Contact information
-- Copyright notice
-- Gradient background matching header
-
-## 🎯 Key Features
+ Key Features
 
 - ✅ Fully responsive design
 - ✅ Consistent dark blue color scheme
@@ -170,21 +104,21 @@ my-bio-app/
 - ✅ Professional typography
 - ✅ Clean, minimalist design
 
-## 📝 Notes
+ Notes
 
 - The profile picture (`Picture.jpg`) should be placed in the `src/` directory
 - All components use the centralized theme configuration
 - CSS variables are defined in `index.css` for easy color customization
 - The layout is optimized for full-width display with centered content
 
-## 👤 Author
+#Author
 
 **Christina Joan M. Gelbolingo**
 - BSIT Student
 - Web & App Developer
 - UI Designer
 
-## 📄 License
+License
 
 This project is open source and available for personal use.
 
@@ -192,6 +126,4 @@ This project is open source and available for personal use.
 
 GitHub: [https://github.com/tina052922/Bionote.git](https://github.com/tina052922/Bionote.git)
 
----
-
-Built with ❤️ using React and Material-UI
+Built with using React and Material-UI
