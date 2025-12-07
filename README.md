@@ -1,16 +1,197 @@
-# React + Vite
+# Bionote - Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio website built with React and Material-UI, featuring a professional bio, skills showcase, projects, and interactive forms. This project combines multiple components including authentication forms, a car component, header, footer, and a comprehensive bionote section.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This portfolio website integrates several components and challenges:
 
-## React Compiler
+### Combined Components:
+- **Sign Up Form** - User registration form with email and password fields
+- **Login Form** - User authentication form with username and password
+- **Car Component** - Interactive component demonstrating React component structure
+- **Header** - Professional header section with profile picture, name, title, and social links
+- **Footer** - Contact section with copyright information
+- **Bionote** - Comprehensive biography section including:
+  - About Me section with detailed professional background
+  - Skills showcase (Frontend, Backend, Tools & Others)
+  - Professional Profile (Experience and Education)
+  - Interests section
+  - Featured Projects with technology stacks
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎨 Design
 
-## Expanding the ESLint configuration
+The website uses a consistent **dark blue color palette**:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Navy**: `#01143D` - Primary text and headings
+- **Cyan**: `#43B3EF` - Accents and secondary elements
+- **Background**: `#E8ECEF` - Main page background
+- **Card**: `#FFFFFF` - Card backgrounds
+- **Text Dark**: `#1E2A39` - Body text
+- **Text Muted**: `#A9AEB4` - Secondary text
+
+## 🛠️ Technology Stack
+
+- **React 19** - UI library
+- **Vite** - Build tool and dev server
+- **Material-UI (MUI)** - Component library
+- **Emotion** - CSS-in-JS styling
+- **JavaScript (ES6+)** - Programming language
+
+## 📦 Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/tina052922/Bionote.git
+   cd Bionote
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser:**
+   Navigate to `http://localhost:5173` (or the port shown in the terminal)
+
+## 🚀 Usage Guide
+
+### Development
+
+- **Run development server:**
+  ```bash
+  npm run dev
+  ```
+  This starts the Vite dev server with hot module replacement (HMR).
+
+- **Build for production:**
+  ```bash
+  npm run build
+  ```
+  Creates an optimized production build in the `dist` folder.
+
+- **Preview production build:**
+  ```bash
+  npm run preview
+  ```
+  Previews the production build locally.
+
+- **Run linter:**
+  ```bash
+  npm run lint
+  ```
+  Checks code for linting errors.
+
+### Project Structure
+
+```
+my-bio-app/
+├── public/              # Static assets
+├── src/
+│   ├── assets/         # Images and other assets
+│   ├── components/     # React components
+│   │   ├── About.jsx   # About Me section
+│   │   ├── Car.jsx     # Car component
+│   │   ├── Experience.jsx  # Professional profile
+│   │   ├── Footer.jsx  # Footer component
+│   │   ├── FormContainer.jsx  # Login & Sign Up forms
+│   │   ├── Header.jsx  # Header with profile picture
+│   │   ├── Interests.jsx  # Interests section
+│   │   ├── Projects.jsx   # Featured projects
+│   │   └── Skills.jsx     # Skills showcase
+│   ├── App.jsx         # Main app component
+│   ├── main.jsx        # Entry point
+│   ├── theme.js        # Material-UI theme configuration
+│   ├── index.css       # Global styles and CSS variables
+│   └── Picture.jpg     # Profile picture
+├── package.json        # Dependencies and scripts
+└── README.md          # This file
+```
+
+## 📋 Component Guide
+
+### 1. Header Component
+- Displays profile picture (Picture.jpg)
+- Shows full name: "Christina Joan M. Gelbolingo"
+- Displays professional title
+- Includes social media buttons (GitHub, LinkedIn, Email)
+- Features gradient background with navy blue palette
+
+### 2. About Me Section
+- Professional biography
+- Centered, wide layout for optimal readability
+- Clean white card design with subtle shadows
+
+### 3. Skills Section
+- Three categories: Frontend, Backend, Tools & Others
+- Technology chips for each skill
+- Responsive grid layout
+- Hover effects on cards
+
+### 4. Professional Profile
+- **Experience Card**: Work history and achievements
+- **Education Card**: Academic background
+- Timeline-style layout with colored borders
+
+### 5. Interests Section
+- Four interest cards in a grid
+- Dark blue gradient backgrounds
+- Hover animations
+
+### 6. Featured Projects
+- Project cards with descriptions
+- Technology stack tags
+- Project type badges
+- Responsive layout
+
+### 7. Forms (Login & Sign Up)
+- Side-by-side card layout
+- Material-UI form components
+- Full-width inputs
+- Navy blue primary buttons
+
+### 8. Footer
+- Contact information
+- Copyright notice
+- Gradient background matching header
+
+## 🎯 Key Features
+
+- ✅ Fully responsive design
+- ✅ Consistent dark blue color scheme
+- ✅ Material-UI components for modern UI
+- ✅ Smooth hover animations
+- ✅ Centered, wide layout for optimal viewing
+- ✅ Professional typography
+- ✅ Clean, minimalist design
+
+## 📝 Notes
+
+- The profile picture (`Picture.jpg`) should be placed in the `src/` directory
+- All components use the centralized theme configuration
+- CSS variables are defined in `index.css` for easy color customization
+- The layout is optimized for full-width display with centered content
+
+## 👤 Author
+
+**Christina Joan M. Gelbolingo**
+- BSIT Student
+- Web & App Developer
+- UI Designer
+
+## 📄 License
+
+This project is open source and available for personal use.
+
+## 🔗 Repository
+
+GitHub: [https://github.com/tina052922/Bionote.git](https://github.com/tina052922/Bionote.git)
+
+---
+
+Built with ❤️ using React and Material-UI
